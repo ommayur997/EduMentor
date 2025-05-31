@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the dataset
-df = pd.read_csv("datasets/edu_mentor_dataset_final(5000).csv")
+df = pd.read_csv(r"D:\\Course\\Brainworks\\Python_Practice\\Projects\\Final_project\\datasets\\edu_mentor_dataset_final(5000).csv")
 
 # Load trained models
 regression_model = joblib.load('regression_model.pkl')
